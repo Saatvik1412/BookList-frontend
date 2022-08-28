@@ -19,7 +19,7 @@ export default class SignUp extends Component {
         e.preventDefault();
         const {uname, email, password } = this.state;
         console.log(uname,email,password);
-        fetch("http://localhost:3000/register", {
+        fetch("https://mybooklist1412.herokuapp.com/register", {
           method: "POST",
           crossDomain: true,
           headers: {
