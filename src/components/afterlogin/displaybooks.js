@@ -24,7 +24,7 @@ export default function Displaybooks() {
 
 
     useEffect(() => {
-        fetch("http://localhost:3000/viewbooks")
+        fetch("https://mybooklist1412.herokuapp.com/viewbooks")
         .then(res => {
             if(res.ok){
                 return res.json()
@@ -66,7 +66,7 @@ export default function Displaybooks() {
                         return w;
                     return 0
                 }));
-                axios.delete(`http://localhost:3000/deletebook/${id}`)
+                axios.delete(`https://mybooklist1412.herokuapp.com/deletebook/${id}`)
                 .then(res=>
                     console.log(res)
                     
