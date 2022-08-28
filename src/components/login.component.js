@@ -54,7 +54,7 @@ export default class Login extends Component {
           headers: {
             "Content-Type": "application/json",
             Accept: "application/json",
-            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Origin": "https://mybooklist-web.netlify.app/",
           },
           body: JSON.stringify({
             email,
