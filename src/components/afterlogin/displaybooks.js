@@ -58,7 +58,7 @@ export default function Displaybooks() {
         
 
         
-    }, [])
+    })
 
    function Delete(id){
                 setBooks(books.filter(function (w){
