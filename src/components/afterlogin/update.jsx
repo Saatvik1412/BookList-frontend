@@ -35,6 +35,7 @@ const Update = ({show,item,onClose}) => {
                 rating:"",    
             });
         }
+        window.location.href='/viewlist';
     }
         if(!show)
         {   
