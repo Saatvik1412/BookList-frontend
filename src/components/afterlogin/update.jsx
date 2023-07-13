@@ -18,7 +18,7 @@ const Update = ({show,item,onClose}) => {
         if(readType===false){
          console.log(startDate1)
          console.log(endDate1)
-        axios.put('https://mybooklist1412.herokuapp.com/update',{
+        axios.put('https://book-list-backend.onrender.com/update',{
             id: id,
             read: readType,
             sDate:startDate1,
@@ -27,7 +27,7 @@ const Update = ({show,item,onClose}) => {
         });
         }
         else{
-            axios.put('https://mybooklist1412.herokuapp.com/update',{
+            axios.put('https://book-list-backend.onrender.com/update',{
                 id: id,
                 read: readType,
                 sDate:"",
