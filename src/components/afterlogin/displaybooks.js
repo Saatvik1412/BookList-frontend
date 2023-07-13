@@ -24,7 +24,7 @@ export default function Displaybooks() {
 
 
     useEffect(() => {
-        fetch("https://mybooklist1412.herokuapp.com/viewbooks")
+        fetch("https://book-list-backend.onrender.com/viewbooks")
         .then(res => {
             if(res.ok){
                 return res.json()
