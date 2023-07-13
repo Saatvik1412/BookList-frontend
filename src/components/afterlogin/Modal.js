@@ -41,7 +41,7 @@ const Modal=({show,item,onClose})=>{
             rating: seek,
             thumbnail: item.volumeInfo.imageLinks.smallThumbnail
         }
-        axios.post('https://mybooklist1412.herokuapp.com/create', newBook)
+        axios.post('https://book-list-backend.onrender.com/create', newBook)
         alert("submitted");
     }
     else{
@@ -54,7 +54,7 @@ const Modal=({show,item,onClose})=>{
             read: readType,
             thumbnail: item.volumeInfo.imageLinks.smallThumbnail
         }
-        axios.post('https://mybooklist1412.herokuapp.com/create', newBook)
+        axios.post('https://book-list-backend.onrender.com/create', newBook)
         alert("submitted");
     }
 }
